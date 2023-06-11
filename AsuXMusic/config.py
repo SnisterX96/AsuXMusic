@@ -6,14 +6,14 @@ load_dotenv()
 
 admins = {}
 
-SESSION_NAME = getenv("SESSION_NAME", "")
+SESSION_NAME = getenv("SESSION_NAME", "BQAmZxM_O6gZprGdNZxZoHwjhIZQ-lKZ0aPz9ATKfncwQXSVw0gPCnUe_SWTPYwNwns0NK2hRsmMdaFAB5PO_0KCsVsTo_3TEHBOGPtgn5x9S0irAfOK6z50cw1zJVuwA5abLiovfm-N0vFxAoRFaXX1IfnqS9liG2wjiqZSPHmEbM8n9w3zlBAOpL4K5P-EnCV6c3lgh2oFWziVd4GibBLa57wKzeH5vZjGraH8TIr24zoP2E7h7u4zf9JgOn-Q9lmUp_fQDOjZu34UyMIrfxLM-JXygXZkNme5Ao0fdLX6nltPLyRB90HRHQFf7H19dRWOy5_3noQwDDOoiXWoAAAAATNT7VoA")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-API_ID = int(getenv("API_ID", "8186557"))
-API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "AbishnoiMF")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Abishnoi_bots")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5938660179").split()))
+BOT_TOKEN = getenv("BOT_TOKEN", "6072123540:AAGnL13XvbdxN0qCqk0n0CJNnb_Oy7IyfHI")
+API_ID = int(getenv("API_ID", "15104173"))
+API_HASH = getenv("API_HASH", "6aff375c0543375c5d5949d851dad72c")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "arkonsbotsupport)
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "arkonsbotupdate)
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5156105562").split()))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5938660179").split()))
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "120"))
 
