@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH", "6aff375c0543375c5d5949d851dad72c")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "arkonsbotsupport)
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "arkonsbotupdate)
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5156105562").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5938660179").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5156105562").split()))
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "120"))
 
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/31e9ecee16a46575267a4.jpg")
